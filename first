@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
+</script>
+<script src="JS/index.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+  <p id="one">Try clicking here</p>
+	<p id="my">i have been hidden</p>
+	<p id="dnt">Toggle me</p>
+	<button id="btn1">show</button>
+	<button id="btn2">toggle</button>
+<hr>
+	<div id="div1" style="display:none;position:relative;">
+		This is the contents of div1. This comes as an example of fadeIn.
+		<h1>I am the contents of DIV1.</h1>
+	</div>
+	<button id="btn3">Show div1</button>
+	<button id="btn5">animate</button>
+<hr>
+	<div id="div2">
+	This is the contents of div2. This comes as an example fadeToggle.
+	<h1>I am the contents of DIV2</h1>
+	</div>
+	<button id="btn4">toggle div2</button>
+<hr>
+<center><a href="firstPage.html">Goto next page</a></center>
+</body>
+</html>
